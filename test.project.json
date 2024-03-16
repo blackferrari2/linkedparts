@@ -1,0 +1,21 @@
+{
+	"name": "linkedparts-test",
+	
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+
+			"packages": {
+				"$className": "Folder",
+				"$ignoreUnknownInstances": true,
+
+				"linkedparts": {
+					"$path": "default.project.json",
+					"$ignoreUnknownInstances": true
+				}
+			}
+		}
+	}
+}
